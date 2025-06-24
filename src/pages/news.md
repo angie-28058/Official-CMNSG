@@ -1,6 +1,5 @@
 ---
-title: "News"
-layout: "page"
-permalink: "/news/"
+title: 'News'
+permalink: '/news/index.html'
+layout: 'layouts/news.njk'
 ---
-
