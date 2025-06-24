@@ -3,15 +3,15 @@
 <form name="contact" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="bot-field">
   <ol class="[ field-list ]">
     <li class="[ field-list__field-group ]">
-      {{ label("What’s your name?", "name") }}
-      {{ field( "text", "name", { required: true, placeholder: "Katherine Johnson", autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+      {{ label("Qual é o seu nome", "name") }}
+      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
       {{ label("Qual é o seu email?", "email") }}
-      {{ field( "email", "email", { required: true, placeholder: "katherine@johnson.tld", autocomplete: "email" } ) }}
+      {{ field( "email", "email", { required: true, autocomplete: "email" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
-      {{ label("Qual é a sua mensagem", "message") }}
+      {{ label("Qual é a sua mensagem?", "message") }}
       {{ textarea( "message", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
     </li>
     <li hidden>
