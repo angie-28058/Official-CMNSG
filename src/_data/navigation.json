@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Início",
       "url": "/",
       "external": false
     },
     {
-      "text": "News",
+      "text": "Notícias",
       "url": "/news",
       "external": false
     },
     {
-      "text": "Example Contact Page",
+      "text": "Contato",
       "url": "/contact",
       "external": false
     }
