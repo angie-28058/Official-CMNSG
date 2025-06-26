@@ -14,6 +14,10 @@
       "text": "Contato",
       "url": "/contact",
       "external": false
+    },
+    {
+      "text": "Doar",
+      "url": "https://polite-jelly-8afc69.netlify.app/news/"
     }
   ]
 }
