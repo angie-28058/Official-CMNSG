@@ -1,12 +1,15 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
-postsHeading: Latest posts
+title: Cuidar com dignidade, acolher com amor.
+metaDesc: Cuidar com dignidade, acolher com amor.
+postsHeading: Nossa História e Missão
 archiveButtonText: See all posts
-metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.'
-socialImage: ''
+socialImage: ""
 ---
+<!--StartFragment-->
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+**A CMNSG apoia e acolhe idosos em situação de vulnerabilidade, proporcionando cuidados, conforto e dignidade.**
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+**Ajude-nos a fazer a diferença — \[Faça o seu donativo aqui]**
+
+<!--EndFragment-->
