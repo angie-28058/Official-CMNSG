@@ -16,16 +16,27 @@
   {% set paginationNextUrl = '/archive' %}
 {% endif %}
 
+
+
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
+    
+    <h2>{{ postsHeading }}</h2>
+    <div class="posts-body">
+      {{ postsBody | safe }}
+    </div>
+
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}
 
+{#{% block content %}
+  <main id="main-content" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/pagination.njk" %}
+  </main>
+{% endblock %}#}
 
-<h2>{{ home.postsHeading }}</h2>
-<div class="posts-body">
-  {{ home.postsBody | safe }}
-</div>
