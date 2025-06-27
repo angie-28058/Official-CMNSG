@@ -3,6 +3,8 @@ layout: home
 title: Cuidar com dignidade, acolher com amor.
 metaDesc: Cuidar com dignidade, acolher com amor.
 postsHeading: Nossa História e Missão
+postsBody: |
+  This is a test of the posts body content in markdown.
 archiveButtonText: See all posts
 socialImage: ""
 ---
@@ -13,3 +15,4 @@ socialImage: ""
 **Ajude-nos a fazer a diferença — \[Faça o seu donativo aqui]**
 
 <!--EndFragment-->
+
