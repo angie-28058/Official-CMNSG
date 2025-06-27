@@ -23,7 +23,7 @@
 
     <h2>{{ postsHeading }}</h2>
     <div class="posts-body">
-      {{ home.postsBody | markdownFilter | safe }}
+      {{ postsBody | markdownFilter | safe }}
     </div>
 
     {% include "partials/components/post-list.njk" %}
