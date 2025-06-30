@@ -33,21 +33,14 @@
 </header> #}
 
 
-<a class="skip-link" href="#main-content">Skip to content</a>
-
-<header role="banner" class="site-head pad-top-700 pad-bottom-700">
-  <div class="wrapper">
-    <div class="site-head__inner md:box-flex space-between align-center">
-    
-      <a href="/" class="site-head__site-name flex items-center gap-0 leading-tight">
-        <img src="/images/favicon.png" alt="{{ site.name }} logo" class="h-[0.5em] w-[0.5em] object-contain" loading="lazy" />
-        <span class="visually-hidden">{{ site.name }} - Home</span>
-        <span class="text-600 -ml-1" aria-hidden="true">{{ site.name }}</span>
-      </a>
-
-      {% set ariaLabel = 'navigation' %}
-      {% include "partials/components/nav.njk" %}
-
-    </div>
-  </div>
-</header>
+<a href="/" class="site-head__site-name" style="display: flex; align-items: center; gap: 0.5rem;">
+  <img 
+    src="/images/favicon.png" 
+    alt="{{ site.name }} logo" 
+    loading="lazy" 
+    style="width: 24px; height: 24px; object-fit: contain;"
+  />
+  <span style="font-size: 1.25rem; font-weight: bold; margin-left: 0.5rem;">
+    {{ site.name }}
+  </span>
+</a>
