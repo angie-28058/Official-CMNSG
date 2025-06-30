@@ -8,6 +8,11 @@
 
 {# Post list content #}
 {% set postListHeading = postsHeading %}
+
+<div class="posts-body">
+  {{ postsBody | markdownFilter | safe }}
+</div>
+
 {% set postListItems = collections.postFeed %}
 
 {# Archive link #}
