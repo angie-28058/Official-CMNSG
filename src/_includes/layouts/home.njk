@@ -1,4 +1,5 @@
-{#{% extends 'layouts/base.njk' %}
+{#
+{% extends 'layouts/base.njk' %}
 
 {# Intro content #}
 {% set introHeading = title %}
@@ -22,7 +23,8 @@
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
-{% endblock %}#}
+{% endblock %}
+#}
 
 
 {% extends 'layouts/base.njk' %}
