@@ -4,14 +4,8 @@ title: Contato
 permalink: /contact/index.html
 metaTitle: ""
 ---
+Aqui está nossa página de contato. Entre em contato conosco caso tenha alguma dúvida ou queira saber mais sobre nossa organização.
 
-You can have a contact page which uses a basic form. The [code with the form fields lives here](https://github.com/hankchizljaw/hylia/blob/master/src/_includes/layouts/contact.njk). 
+E-mail: conferenciagraca@gmail.com
 
-To delete the contact form for this site, delete this page in the CMS or at `src/pages/contact.md`. You probably will also want to delete `src/pages/thank-you.md`.
-
-
-This is a news page.
-
-**Welcome to the official news section of our site!**
-
-Stay tuned for updates and announcements.
+Telefone: \_\_\_\_\_\_\_\_\_\_
