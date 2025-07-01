@@ -6,7 +6,17 @@ postsHeading: Nossa História e Missão
 postsBody: why this required
 archiveButtonText: See all posts
 socialImage: ""
-secondBody: I am a pp
+secondBody: >-
+  <!--StartFragment-->
+
+
+  **A CMNSG apoia e acolhe idosos em situação de vulnerabilidade, proporcionando cuidados, conforto e dignidade.**
+
+
+  **Ajude-nos a fazer a diferença — \[Faça o seu donativo aqui]**
+
+
+  <!--EndFragment-->
 ---
 <!--StartFragment-->
 
