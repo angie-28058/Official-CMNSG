@@ -26,7 +26,7 @@ const Home = ({ entry }) => (
     context={({ title, body, subtitle, postsHeading, archiveButtonText }) => ({
       title,
       content: markdownFilter(body),
-      subtitle: markdownFilter(subtitle),
+      subtitle,
       postsHeading,
       archiveButtonText,
       collections: {
