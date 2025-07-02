@@ -6,7 +6,7 @@ postsBody: why this required
 archiveButtonText: See all posts
 socialImage: ""
 secondBody: hello from secondbody!
-subtitle: ggg
+subtitle: This subtitle took me some hours to write
 metaDesc: Cuidar com dignidade, acolher com amor.
 ---
 <!--StartFragment-->
