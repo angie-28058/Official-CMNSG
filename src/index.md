@@ -6,17 +6,7 @@ postsBody: why this required
 archiveButtonText: See all posts
 socialImage: ""
 secondBody: hello from secondbody!
-subtitle: >-
-  <!--StartFragment-->
-
-
-  **A CMNSG apoia e acolhe idosos em situação de vulnerabilidade, proporcionando cuidados, conforto e dignidade.**
-
-
-  **Ajude-nos a fazer a diferença — \[Faça o seu donativo aqui]**
-
-
-  <!--EndFragment-->
+subtitle: This subtitle took me some hours to write
 metaDesc: Cuidar com dignidade, acolher com amor.
 ---
 <!--StartFragment-->
