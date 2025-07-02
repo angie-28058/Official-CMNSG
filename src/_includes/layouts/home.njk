@@ -4,7 +4,7 @@
 {% set introHeading = title %}
 {% set introSummary %}
   {# The secondBody is part of the FrontMatter, and isn't markdown-ified by eleventy. So we put it through a markdown filter. #}
-  {{ subtitle | markdownFilter | safe }}
+  {{ subtitle | dump }}
 {% endset %}
 
 {# Post list content #}
