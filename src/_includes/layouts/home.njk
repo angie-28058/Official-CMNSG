@@ -3,7 +3,8 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-  {{ content | safe }}
+  {# The secondBody is part of the FrontMatter, and isn't markdown-ified by eleventy. So we put it through a markdown filter. #}
+  {{ subtitle | markdownProse | safe }}
 {% endset %}
 
 {# Post list content #}
@@ -21,7 +22,7 @@
     {% include "partials/components/intro.njk" %}
     {# Second Body #}
     <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
-      {{ secondBody | safe }}
+      {{ content | safe }}
     </div>
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}

@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
-const markdownFilter = require('./src/filters/markdown-filter.js');
+const markdownFilters = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 // Import transforms
@@ -17,7 +17,8 @@ const site = require('./src/_data/site.json');
 module.exports = function(config) {
   // Filters
   config.addFilter('dateFilter', dateFilter);
-  config.addFilter('markdownFilter', markdownFilter);
+  config.addFilter('markdownFilter', markdownFilters.markdown);
+  config.addFilter('markdownProse', markdownFilters.markdownNoBreaks);
   config.addFilter('w3DateFilter', w3DateFilter);
 
   // Layout aliases

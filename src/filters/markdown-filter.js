@@ -4,6 +4,16 @@ const markdownIt = require('markdown-it')({
   linkify: true
 });
 
-module.exports = function markdown(value) {
-  return markdownIt.render(value);
+const markdownItNoBreaks = require('markdown-it')({
+  html: true,
+  breaks: false,
+});
+
+module.exports = {
+  markdown(value) {
+    return markdownIt.render(value);
+  },
+  markdownNoBreaks(value) {
+    return markdownItNoBreaks.render(value);
+  }
 };
