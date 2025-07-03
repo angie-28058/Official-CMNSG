@@ -13,11 +13,13 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 
 // Import data files
 const site = require('./src/_data/site.json');
+// const markdownProseFilter = require('./src/filters/markdown-prose-filter.js');
 
 module.exports = function(config) {
   // Filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
+  // config.addFilter('markdownProse', markdownProseFilter); wpli(2025-07-02): does not work.
   config.addFilter('w3DateFilter', w3DateFilter);
 
   // Layout aliases

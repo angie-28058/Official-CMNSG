@@ -1,6 +1,7 @@
 const {
   w3DateFilter,
   markdownFilter,
+  // markdownProse,
   dateFilter,
   helpers,
 } = previewUtil;
@@ -9,6 +10,7 @@ const env = nunjucks.configure();
 
 env.addFilter('w3DateFilter', w3DateFilter);
 env.addFilter('markdownFilter', markdownFilter);
+// env.addFilter('markdownProse', markdownProse);
 env.addFilter('dateFilter', dateFilter);
 
 const Preview = ({ entry, path, context }) => {
@@ -21,9 +23,10 @@ const Home = ({ entry }) => (
   <Preview
     entry={entry}
     path="layouts/home.njk"
-    context={({ title, body, postsHeading, archiveButtonText }) => ({
+    context={({ title, body, subtitle, postsHeading, archiveButtonText }) => ({
       title,
       content: markdownFilter(body),
+      subtitle,
       postsHeading,
       archiveButtonText,
       collections: {
