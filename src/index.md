@@ -14,8 +14,6 @@ postsHeading: Nossa História e Missão
 postsBody: why this required
 archiveButtonText: See all posts
 socialImage: ""
-secondBody: hello from secondbody!
-metaDesc: Cuidar com dignidade, acolher com amor.
 ---
 <!--StartFragment-->
 
