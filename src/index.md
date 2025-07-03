@@ -1,16 +1,19 @@
 ---
 layout: home
 title: Cuidar com dignidade, acolher com amor.
-subtitle: >-
+subtitle: |-
   <!--StartFragment-->
-
   **HELLO FROM SECONDBODY** 
-
   *i think i did this right?*
-
   <!--EndFragment-->
 metaDesc: Cuidar com dignidade, acolher com amor.
-postsBody: why this required
+postsHeading: Nossa História e Missão
+postsBody: |-
+  
+
+
+
+  h﻿jhhh
 archiveButtonText: See all posts
 socialImage: ""
 ---
