@@ -10,7 +10,6 @@ subtitle: >-
 
   <!--EndFragment-->
 metaDesc: Cuidar com dignidade, acolher com amor.
-postsHeading: Nossa História e Missão
 postsBody: why this required
 archiveButtonText: See all posts
 socialImage: ""
