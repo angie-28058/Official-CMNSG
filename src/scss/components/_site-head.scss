@@ -4,4 +4,9 @@
   text-decoration: none;
   color: var(--color-text);
   margin-left: -5; // make sure it's zero
+
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
