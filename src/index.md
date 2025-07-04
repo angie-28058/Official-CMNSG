@@ -23,17 +23,13 @@ postsBody: |-
 archiveButtonText: See all posts
 socialImage: ""
 ---
-
-
-
-
 <!--StartFragment-->
 
-## Quem Somos
+### Quem Somos
 
 A **Conferência Masculina de Nossa Senhora das Graças (CMNSG)** é uma instituição de solidariedade social dedicada ao apoio de pessoas idosas em situação de vulnerabilidade. Através das suas residências e iniciativas comunitárias, a CMNSG proporciona acolhimento, cuidado e companhia àqueles que vivem a última fase da sua vida, preservando os valores de dignidade, compaixão e serviço.
 
-## Nossa História
+### Nossa História
 
 A CMNSG foi fundada em 1937 por um grupo de homens de boa vontade de Carnaxide, com o apoio do então Prior, o Rev. Padre Patuleia. Inicialmente designada como uma Conferência Vicentina sob o patrocínio de São Romão de Carnaxide, foi oficialmente reconhecida como **Conferência de Nossa Senhora das Graças** em abril de 1949 pelo Conselho Geral de Paris.
 
@@ -43,7 +39,7 @@ Posteriormente, novas residências foram criadas em **Queijas** — **Lar de Nos
 
 Em 2012, foi inaugurado um novo e moderno lar, construído em terreno cedido pela Câmara Municipal de Oeiras, graças à generosidade do Professor Doutor Juvenal Alvarez Esteves.
 
-## Nossa Missão
+### Nossa Missão
 
 A CMNSG tem como missão proporcionar um ambiente digno e solidário aos idosos mais necessitados, garantindo-lhes acolhimento, cuidados e calor humano na última fase das suas vidas. Orientada pelos valores cristãos e pelo espírito de solidariedade, a CMNSG continua a trabalhar para alargar e melhorar os seus serviços, para que ninguém fique sem um lar ou um apoio digno nos seus últimos anos.
 
